@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="EN" lang="EN" dir="ltr">
+<head profile="http://gmpg.org/xfn/11">
+<title>PhotoFolio</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="imagetoolbar" content="no" />
+<link rel="stylesheet" href="styles/layout.css" type="text/css" />
+<script type="text/javascript" src="scripts/jquery-1.4.1.min.js"></script>
+<script type="text/javascript" src="scripts/jquery-photostack.js"></script>
+<script type="text/javascript" src="scripts/jquery-coin-slider.min.js"></script>
+<script type="text/javascript" src="scripts/jquery-ui-1.8.12.custom.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('#portfolioslider').coinslider({
+        width: 480,
+        height: 280,
+        navigation: false,
+        links: false,
+        hoverPause: true
+    });
+    $("#tabcontainer").tabs({
+        event: "click"
+    });
+});
+</script>
+</head>
+<body id="top">
+<div class="wrapper col1">
+  <div id="header" class="clear">
+    <div class="fl_left">
+      <h1><a href="index.html">Fotos para Perros</a></h1>
+      <p>basado en CSS Website Template</p>
+    para IISO3130-1 DESARROLLO DE SOFTWARE III</div>
+    <div class="fl_right"><img src="images/demo/468x60.jpg" alt="" /></div>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col1">
+  <div id="topbar" class="clear">
+    <ul id="topnav">
+      <li class="active"><a href="index.html">Inicio</a></li>
+      <li><a href="#">Sitios de interes</a>
+        <ul>
+          <li><a href="http://bodasecuador.com/" target="new">Bodas Ecuador</a></li>
+          <li><a href="http://www.mascotamoda.com/" target="new">Tiendas de Mascotas</a></li>
+          <li><a href="http://www.rescateanimal.org.ec/" target="new">Rescate de Perros</a></li>
+        </ul>
+      </li>
+      <li class="last"><a href="gallery.html">Galeria</a></li>
+    </ul>
+    <form action="#" method="post" id="search">
+      <fieldset>
+        <legend>Site Search</legend>
+        <input type="text" value="Buscar en nuestra web&hellip;" onfocus="this.value=(this.value=='Search Our Website&hellip;')? '' : this.value ;" />
+        <input type="image" id="go" src="images/search.gif" alt="Search" />
+      </fieldset>
+    </form>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col1">
+  <div id="featured_slide">
+    <!-- ####################################################################################################### -->
+    <div id="slider">
+      <ul id="categories">
+        <li class="category">
+          <h2>Fotos de Boda</h2>
+          <a href="https://www.google.com.ec/search?q=boda+de+perros&safe=off&client=firefox-aurora&hs=52v&rls=org.mozilla:es-ES:unofficial&channel=fflb&source=lnms&tbm=isch&sa=X&ei=dkFiVOSvM4udgwTzrYSwCA&ved=0CAgQ_AUoAQ&biw=1366&bih=636" target="_blank"><img src="images/demo/boda.jpg" alt="" /></a>
+          <p>Parte de nuestro trabajo es encontrar los momentos perfectos para tomar las fotos a vuestros perros y que ellos salgan espectaculares</p>
+          <p class="readmore"><a href="http://www.youtube.com/watch?v=ji0ON-UGM44" target="_blank">Leer Mas &raquo;</a></p>
+        </li>
+        <li class="category">
+          <h2>Fotos Artisticas</h2>
+          <a href="https://www.google.com.ec/search?q=Fotos+Artisticas+de+perros&safe=off&client=firefox-aurora&hs=UQw&rls=org.mozilla:es-ES:unofficial&channel=fflb&source=lnms&tbm=isch&sa=X&ei=IUdiVM3SHcumgwS1zYOYAQ&ved=0CAgQ_AUoAQ&biw=1366&bih=636"target="_blank"><img src="images/demo/artistico.jpg" alt="" /></a>
+          <p>Demuestra que tu perro puede ser un artista a la hora de tomarse fotos en retratos únicos e incomparables</p>
+          <p class="readmore"><a href="http://www.youtube.com/watch?v=I7fhxTQGz3U"target="_blank">Leer Mas &raquo;</a></p>
+        </li>
+        <li class="category">
+          <h2>Fotos de Cachorros</h2>
+          <a href="https://www.google.com.ec/search?q=Fotos+de+Cachorros&client=firefox-aurora&hs=lUw&rls=org.mozilla:es-ES:unofficial&channel=fflb&source=lnms&tbm=isch&sa=X&ei=KkhiVIntA4meNo6NgLAP&ved=0CAgQ_AUoAQ&biw=1366&bih=636#imgdii=_"target="_blank"><img src="images/demo/cachorros.jpg" alt="" /></a>
+          <p>Tome las mejores fotos a sus cachorros recien nacidos o cuando usted mas los quiere, cuando son bebes y no pueden hacerle mucho daño</p>
+          <p class="readmore"><a href="http://www.youtube.com/watch?v=g9eQApbQD5c"target="_blank">Leer Mas &raquo;</a></p>
+        </li>
+        <li class="category">
+          <h2>Perros Fashion</h2>
+          <a href="https://www.google.com.ec/search?q=perros+Fashion&client=firefox-aurora&rls=org.mozilla:es-ES:unofficial&channel=fflb&biw=1366&bih=636&tbm=isch&source=lnms&sa=X&ei=hEpiVPOxNsyiNt_sgvAE&ved=0CAgQ_AUoAQ&dpr=1"target="_blank"><img src="images/demo/fashion.jpg" alt="" /></a>
+          <p>Quiere fotos de su perro vistiendo algún modelo adorable, pero a la vez serio y recatado, no lo dude ni un segundo, nosotros tenemos la colección mas variable y presentable de adornos para su perro</p>
+          <p class="readmore"><a href="http://www.youtube.com/watch?v=Kep3n_LKSlg"target="_blank">Leer Mas &raquo;</a></p>
+        </li>
+        <li class="category">
+          <h2>Fotos bajo el Agua</h2>
+          <a href="https://www.google.com.ec/search?q=bajo+el+agua+perros&client=firefox-aurora&rls=org.mozilla:es-ES:unofficial&channel=fflb&biw=1366&bih=636&tbm=isch&source=lnms&sa=X&ei=7kpiVJyIG4ynNujpg8gN&ved=0CAgQ_AUoAQ&dpr=1"target="_blank"><img src="images/demo/bajoel Agua.jpg" alt="" /></a>
+          <p>Demuestra que tu perro no le teme al agua y tomale fotos inolvidables y para el recuerdo de muchos, se de las pocas personas que pueden presumir de estas fotos</p>
+          <p class="readmore"><a href="http://www.youtube.com/watch?v=aX4yLpCGxdQ"target="_blank">Leer Mas &raquo;</a></p>
+        </li>
+      </ul>
+      <a class="prev disabled"></a> <a class="next disabled"></a>
+      <div style="clear:both"></div>
+    </div>
+<div class="wrapper">
+  <div id="footer" class="clear">
+    <div class="footbox">
+      <h2>Acerca de nosotros</h2>
+      <p>Nuestra empresa se encarga de que todas las fotos tomadas dentro y fuera de nuestra empresa y con nuestro equipo salgan de la manera correcta e impecable que se le promete en un inicio de nuestro acuerdo.</p>
+      <p>Además que siempre se le tiene presente las especificaciones del cliente y los parámetros que usted desee para que las fotos sean inmejorables a nivel técnico y profesional</p>
+    </div>
+    <div class="footbox last">
+      <h2>Sigamos en Contacto</h2>
+      <ul>
+        <li><a href="https://es-la.facebook.com/pae.ec"target="_blank">Nuestra página de facebook</a></li>
+        <li><a href="http://www.vidadeperros.cl/album/c1/c1.htm"target="_blank">Album de perros</a></li>
+      </ul>
+      <h2>Contactanos</h2>
+      <ul>
+        <li><strong class="title">Tel:</strong><br />
+          0994845762</li>
+        <li><strong class="title">Email:</strong><br />
+          <a href="http://www.google.com.ec/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CCAQFjAA&url=http%3A%2F%2Ffiles.campus.edublogs.org%2Fblogs.udla.edu.ec%2Fdist%2F1%2F33%2Ffiles%2F2012%2F02%2FTODOS-phkm0u.xlsx&ei=WG9iVMKoEIOmgwTLnYLYCg&usg=AFQjCNGOUA4BFwoUqi-MxAwOF00SNChblg&sig2=2bAcrAzW3S5xRi-w9t1v0g" target="_blank">bfortiz@udlanet.ec</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper">
+  <div id="copyright" class="clear">
+    <p class="fl_left">Copyright &copy; 2014 - Todos los derechos reservados - <a href="www.udla.edu.ec" target="_blank">UDLA</a></p>
+    <p class="fl_right">Esquema de:  <a href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+  </div>
+</div>
+</body>
+</html>
